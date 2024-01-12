@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ user.full_name }}
+{% endblock %}
+
+{% block content %}
+User Name: {{ user.username }}
+<br>
+Email: {{ user.email }}
+<br>
+First Name: {{ user.first_name }}
+<br>
+Last Name: {{ user.last_name }}
+
+
+{% endblock %}
